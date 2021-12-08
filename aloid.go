@@ -41,10 +41,6 @@ func check(err error) {
 	}
 }
 
-func usage() {
-	fmt.Println("aloid is a program that send files to pastebin.com")
-}
-
 func make_request(api_request api_request_t) {
 	request_url := "https://pastebin.com/api/api_post.php"
 
