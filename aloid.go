@@ -109,7 +109,7 @@ func main() {
 		fmt.Fprintf(os.Stderr, "aloid: %s\n", "missing API key")
 		os.Exit(1)
 	case api_request.File == "":
-		fmt.Fprintf(os.Stderr, "aloid %s\n", "missing file name")
+		fmt.Fprintf(os.Stderr, "aloid: %s\n", "missing file name")
 		os.Exit(1)
 	}
 
